@@ -24,7 +24,7 @@ jobs:
 
       - name: Run the bot
         run: |
-          python bot.py
+          python prueba2.py
         env:
           DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
 
