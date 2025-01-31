@@ -191,3 +191,6 @@ async def sugerencia(ctx):
 async def on_interaction(interaction: discord.Interaction):
     if interaction.data and interaction.data.get("custom_id") == "send_suggestion":
         await interaction.response.send_modal(SuggestionModal())
+
+# Iniciar el bot
+bot.run(TOKEN)
